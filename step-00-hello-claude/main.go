@@ -16,7 +16,7 @@ func main() {
 		MaxTokens: 1024,
 		Messages: []anthropic.MessageParam{{
 			Content: []anthropic.ContentBlockParamUnion{{
-				OfRequestTextBlock: &anthropic.TextBlockParam{Text: "What is a quaternion?"},
+				OfText: &anthropic.TextBlockParam{Text: "What is a quaternion?"},
 			}},
 			Role: anthropic.MessageParamRoleUser,
 		}},
