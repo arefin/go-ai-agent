@@ -3,6 +3,10 @@ Code following Thorsten Ball's How to Build an Agent tutorial at <https://ampcod
 
 Note: To run the code you will need an Anthropic API key set in the environment variable ANTHROPIC_API_KEY.
 
+## Development Setup
+Copy `env.example.sh` to `env.sh` and add your Anthropic API key.
+Run `source ./env.sh` before starting development.
+
 ## How to run the examples in each subdirectory.
 ```bash
 # Download the dependencies
